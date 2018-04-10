@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+    color:#333;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:14px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>top-css-header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
